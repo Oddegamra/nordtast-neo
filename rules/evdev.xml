@@ -2593,6 +2593,10 @@
             <name>neo</name>
             <description>Neo 2</description>
           </configItem>
+          <configItem>
+            <name>nordtast</name>
+            <description>Nordtast+Neo 2</description>
+          </configItem>
         </variant>
         <variant>
           <configItem>

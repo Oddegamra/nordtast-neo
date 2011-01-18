@@ -488,18 +488,17 @@ xkb_symbols "nordtast_base" {
 
     // Bottom row
     // --------------------------------------------------------------
+    key.type[Group1] = "EIGHT_LEVEL_LEVEL_FIVE_LOCK";
     key <AB01> { [ period,                  enfilledcircbullet,      numbersign,              NoSymbol,                Escape,                  Escape,                  union,                   NoSymbol                 ] };
     key <AB02> { [ comma,                   endash,                  dollar,                  U03F5,                   Tab,                     Tab,                     intersection,            NoSymbol                 ] };
+    key.type[Group1] = "EIGHT_LEVEL_ALPHABETIC_LEVEL_FIVE_LOCK";
     key <AB03> { [ udiaeresis,              Udiaeresis,              bar,                     Greek_eta,               Insert,                  Insert,                  U2135,                   NoSymbol                 ] };
     key <AB04> { [ odiaeresis,              Odiaeresis,              asciitilde,              Greek_pi,                Return,                  Return,                  Greek_PI,                NoSymbol                 ] };
     key <AB05> { [ q,                       Q,                       grave,                   Greek_zeta,              Undo,                    Undo,                    U2124,                   NoSymbol                 ] };
-
     key <AB06> { [ y,                       Y,                       plus,                    Greek_beta,              colon,                   NoSymbol,                U21D0,                   NoSymbol                 ] };
     key <AB07> { [ z,                       Z,                       percent,                 Greek_mu,                KP_1,                    KP_1,                    ifonlyif,                NoSymbol                 ] };
-    key.type[Group1] = "EIGHT_LEVEL_LEVEL_FIVE_LOCK";
     key <AB08> { [ w,                       W,                       quotedbl,                U03F1,                   KP_2,                    KP_2,                    U21D2,                   NoSymbol                 ] };
     key <AB09> { [ v,                       V,                       apostrophe,              U03D1,                   KP_3,                    KP_3,                    U21A6,                   NoSymbol                 ] };
-    key.type[Group1] = "EIGHT_LEVEL_ALPHABETIC_LEVEL_FIVE_LOCK";
     key <AB10> { [ j,                       J,                       semicolon,               Greek_theta,             semicolon,               NoSymbol,                Greek_THETA,             NoSymbol                 ] };
     key.type[Group1] = "EIGHT_LEVEL_LEVEL_FIVE_LOCK";
 
